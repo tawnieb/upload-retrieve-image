@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.photoSection {
+  min-height: 40vmin;
+  min-width: 40vim;
+  border: 5px solid red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
