@@ -6,7 +6,6 @@ function Upload() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const files = event.target[0].files[0];
-    console.log("files", files.name);
     fetch(`https://fanvue-intervue.s3-eu-west-1.amazonaws.com/${files.name}`, {
       method: "PUT",
       body: {
